@@ -1,0 +1,24 @@
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.griditems {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.isfood {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
